@@ -6,7 +6,7 @@ let ano = document.getElementById("anoSelect").value
 
 
 // IDEB e SAEB(N)
-fetch(`http://localhost:3000/ideb?id=${cidade}&ano=${ano}`)
+fetch(`https://e-duc.onrender.com/ideb?id=${cidade}&ano=${ano}`)
 .then(res => res.json())
 .then(dados => {
 
@@ -212,7 +212,7 @@ console.log("Erro IDEB:", erro)
 
 
 // CENSO
-fetch(`http://localhost:3000/censo?id=${cidade}&ano=${ano}`)
+fetch(`https://e-duc.onrender.com/censo?id=${cidade}&ano=${ano}`)
 .then(res => res.json())
 .then(dados => {
 
@@ -231,7 +231,7 @@ console.log("Erro Censo:", erro)
 
 
 // TAXA
-fetch(`http://localhost:3000/indicador?id=${cidade}&ano=${ano}`)
+fetch(`https://e-duc.onrender.com/indicador?id=${cidade}&ano=${ano}`)
 .then(res => res.json())
 .then(dados => {
 
