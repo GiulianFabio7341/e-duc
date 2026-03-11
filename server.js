@@ -8,6 +8,10 @@ const app = express();
 
 app.use(cors());
 
+app.get("/", (req, res) => {
+    res.send("API Educação rodando 🚀");
+});
+
 app.get("/ideb", async (req, res) => {
 
     const id = req.query.id;
