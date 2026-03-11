@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Educ</title>
+    <link rel="stylesheet" href="/css/assets.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  </head>
+</head>
+
+<body>
+
+    <header>
+        <h2>E-duc</h2>
+        <p>“A boa educação é moeda de ouro. Em toda parte tem valor” – Padre Antônio Vieira</p>
+    </header>
+
+    <main>
+
+        <div class="escolha">
+
+            <section>
+                <h3>Coleta de Microdados E-duc</h3>
+            </section>
+
+            <section id="cidade">
+
+           
+                <select id="cidadeSelect" class="form-select form-select-lg mb-3" aria-label="Large select example">
+                    <option value="">Escolha uma cidade</option>
+                    <option value="2900702">Alagoinhas</option>
+                    <option value="2907509">Catu</option>
+                    <option value="2902203">Aramari</option>
+                    <option value="2927408">Salvador</option>
+                    <option value="2925204">Pojuca</option>
+                    <option value="2910503">Entre Rios</option>
+                    <option value="2913705">Inhambupe</option>
+                    <option value="2910800">Feira de Santana</option>
+                    <option value="2902054">Araçás</option>
+                </select>
+
+            </section>
+
+
+            <section id="ano">
+
+                <select id="anoSelect" class="form-select form-select-lg mb-3" aria-label="Large select example">
+                    <option value="">Escolha o ano</option>
+                    <option value="2025">2025</option>
+                    <option value="2024">2024</option>
+                    <option value="2023">2023</option>
+                    <option value="2022">2022</option>
+                    <option value="2021">2021</option>
+                    <option value="2020">2020</option>
+                    <option value="2019">2019</option>
+                    <option value="2018">2018</option>
+                    <option value="2017">2017</option>
+                    <option value="2016">2016</option>
+                    <option value="2015">2015</option>
+                    <option value="2014">2014</option>
+                    <option value="2013">2013</option>
+                    <option value="2012">2012</option>
+                    <option value="2011">2011</option>
+                </select>
+
+            </section>
+
+            <button onclick="enviar()"  type="button" class="btn btn-dark">Buscar Microdados</button>
+
+        </div>
+
+
+        <div class="tabela" id="tabela">
+
+            <table class="table table-hover">
+  
+<thead>
+    <tr>
+      <th scope="col">Dependencias</th>
+      <th scope="col">IDEB</th>
+      <th scope="col">Censo</th>
+      <th scope="col">Aprovação</th>
+      <th scope="col">Reprovação</th>
+      <th scope="col">Abandono</th>
+      <th scope="col">SAEB</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">Municipal</th>
+      <td><p id="idebMunicipal">IDEB </p></td>
+      <td><p id="censoMunicipal">Censo </p></td>
+      <td><p id="taxaMunicipalapr">Taxa</p></td>
+      <td><p id="taxaMunicipalrep"> Taxa</p></td>
+      <td><p id="taxaMunicipalaba">Taxa</p> </td>
+       <td><p id="aprMunicipal">Taxa</p></td>
+    </tr>
+    <tr>
+      <th scope="row">Publica</th>
+      <td><p id="idebPublico">IDEB</p></td>
+      <td><p id="censoPublico">Censo</p></td>
+      <td><p id="taxaPublicoapr">Taxa</p></td>
+      <td><p id="taxaPublicorep">Taxa</p></td>
+      <td> <p id="taxaPublicoaba">Taxa</p></td>
+       <td><p id="aprPublico">Taxa</p></td>
+    </tr>
+   
+  </tbody>
+
+</table>
+          
+
+        </div>
+
+    </main>
+
+
+    <footer>
+        <!--Destacar e atribuir minha produção e marca para ele-->
+        <span id="footer">
+
+            &COPY; Giulian Fabio Bastos Amorim Lima, Jean Fabio Amorim Lima - Diretores de Projeto, 2026 - Todos direitos Reservados.<br>
+            
+        </span>
+    </footer>
+
+    <script src="jss/script.js"></script>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+
+</html>

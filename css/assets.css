@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    
+}
+
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+     background-image: url("book.jpg") !important;
+     background-size: cover;
+     background-repeat: no-repeat;
+    
+
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10vh;
+     color: #000000;
+}
+
+main{
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+
+main div.tabela{
+    width: 50vw;
+    display: none;
+
+}
+
+main div.escolha{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+section#ano,section#cidade{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 10vh;
+}
+
+section#ano select,section#cidade select{
+cursor: pointer;
+}
+
+main div.escolha button{
+    
+}
+
+footer{
+    color: #000000;
+}
