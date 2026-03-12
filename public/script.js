@@ -217,10 +217,10 @@ fetch(`https://e-duc.onrender.com/censo?id=${cidade}&ano=${ano}`)
 .then(dados => {
 
 document.getElementById("censoMunicipal").innerText =
-"Municipal: " + dados.censomunicipal
+"Mátrículas: " + dados.censomunicipal
 
 document.getElementById("censoPublico").innerText =
-"Público: " + dados.censopublica
+"Matrículas: " + dados.censopublica
 
 })
 .catch(erro => {
