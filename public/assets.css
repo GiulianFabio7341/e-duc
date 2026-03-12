@@ -18,6 +18,14 @@ body{
 
 }
 
+@media (min-width: 200px) and (max-width: 600px) {
+  body {
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: 50% center !important;
+  }
+}
+
 header{
     display: flex;
     flex-direction: column;
