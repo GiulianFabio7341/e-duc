@@ -6,25 +6,25 @@
 
 # Technologies Used:
 ## 🖥️ Backend: 
-       -  Node.js
-       -  Express
+-  Node.js
+-  Express
 ## 🌐 Frontend
-   ##  JavaScript
-       - CSS
-       - HTML
+- JavaScript
+- CSS
+- HTML
 
 ## 🔌 Integrations
-      - Axios
-      - QEdu API
+- Axios
+- QEdu API
 
  ## 🔐 Middleware
-       - CORS
+ - CORS
 
  ## ☁️ Deployment
  - Render: [Access the project](https://e-duc.onrender.com/)
 
 ## 🚀 Features
-      - 📈 Educational data visualization  
-      - 🔍 Search by city and year  
-      - 🌐 Integration with external API 
+- 📈 Educational data visualization  
+- 🔍 Search by city and year  
+- 🌐 Integration with external API 
  
