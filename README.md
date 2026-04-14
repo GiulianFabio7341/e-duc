@@ -21,7 +21,7 @@
        - CORS
 
  ## ☁️ Deployment
-       - Render: [Access the project](https://e-duc.onrender.com/)
+ - Render: [Access the project](https://e-duc.onrender.com/)
 
 ## 🚀 Features
       - 📈 Educational data visualization  
