@@ -236,22 +236,22 @@ fetch(`https://e-duc.onrender.com/indicador?id=${cidade}&ano=${ano}`)
 .then(dados => {
 
 document.getElementById("taxaMunicipalapr").innerText =
-"Rendimento: " + dados.taxa_aprmunicipal+"%"
+"Rendimento: " + dados.taxa_aprmunicipal.toFixed(2)+"%"
 
 document.getElementById("taxaMunicipalrep").innerText =
-"Rendimento: " + dados.taxa_repmunicipal+"%"
+"Rendimento: " + dados.taxa_repmunicipal.toFixed(2)+"%"
 
 document.getElementById("taxaMunicipalaba").innerText =
-"Rendimento: " + dados.taxa_abamunicipal+"%"
+"Rendimento: " + dados.taxa_abamunicipal.toFixed(2)+"%"
 
 document.getElementById("taxaPublicoapr").innerText =
-"Rendimento: " + dados.taxa_aprpublica + "%"
+"Rendimento: " + dados.taxa_aprpublica.toFixed(2) + "%"
 
 document.getElementById("taxaPublicorep").innerText =
-"Rendimento: " + dados.taxa_reppublica + "%"
+"Rendimento: " + dados.taxa_reppublica.toFixed(2) + "%"
 
 document.getElementById("taxaPublicoaba").innerText =
-"Rendimento: " + dados.taxa_abapublica + "%"
+"Rendimento: " + dados.taxa_abapublica.toFixed(2) + "%"
 
 })
 .catch(erro => {
