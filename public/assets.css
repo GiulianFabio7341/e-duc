@@ -1,6 +1,5 @@
 *{
     margin: 0;
-    
 }
 
 
@@ -16,7 +15,7 @@ body{
      background-repeat: no-repeat;
 }
 
-@media (min-width: 200px) and (max-width: 600px) {
+@media (min-width: 200px) and (max-width: 599px) {
   body {
      background-size: cover;
      background-repeat: no-repeat;
