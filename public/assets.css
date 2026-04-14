@@ -14,8 +14,14 @@ body{
      background-image: url("book.jpg") !important;
      background-size: cover;
      background-repeat: no-repeat;
-    
+}
 
+@media (min-width: 200px) and (max-width: 600px) {
+  body {
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: 50% center !important;
+  }
 }
 
 header{
@@ -59,9 +65,6 @@ section#ano select,section#cidade select{
 cursor: pointer;
 }
 
-main div.escolha button{
-    
-}
 
 footer{
     color: #000000;
